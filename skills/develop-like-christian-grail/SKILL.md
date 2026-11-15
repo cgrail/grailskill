@@ -24,6 +24,16 @@ In code, UI text and docs:
 - **Simple words everybody understands:** `name`, not `callsign`.
 - **Generic words in place of brand names:** describe the thing ("a classic racing game"), whoever makes it.
 
+Docs, UI text and comments follow Simplified Technical English (STE):
+
+- **One item, one name:** pick `settings` or `config` and keep it.
+- **Short sentences:** 20 words at most for an instruction, 25 for an explanation. One instruction per sentence.
+- **Active voice, simple tenses:** "the server sends the file", not "the file is being sent".
+- **A verb for an action:** "compress the file", not "perform compression of the file".
+- **`must` for a requirement, `can` for a possibility.**
+- **The condition comes first:** "If the build fails, read the log."
+- **Code, commands, paths and error text stay exact.**
+
 ## Who tests what
 
 - **You run the headless checks:** syntax and type checks, unit tests, a compile. They are all green before a commit.
