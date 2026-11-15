@@ -1,0 +1,11 @@
+{
+  "name": "grailskill",
+  "owner": { "name": "Christian Grail" },
+  "plugins": [
+    {
+      "name": "grailskill",
+      "description": "House rules for every project, and a skill that works items off todo.md.",
+      "source": "./"
+    }
+  ]
+}
