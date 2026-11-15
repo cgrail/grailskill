@@ -18,9 +18,9 @@ For each item, in order:
 
 1. **Read the item as a bug report, not a spec.** Most entries are one line of the user's shorthand. Find the actual code before deciding what the fix is: the symptom is usually a small piece of a shared code path.
 2. **Locate it.** The project's CLAUDE.md maps the folders. Follow the change through every layer and platform it touches. Where two builds mirror each other, both change in the same commit.
-3. **Implement.** Follow the [rules](../rules/SKILL.md) and every constraint in CLAUDE.md that the change touches.
+3. **Implement.** Follow [develop-like-christian-grail](../develop-like-christian-grail/SKILL.md) and every constraint in CLAUDE.md that the change touches.
 4. **Verify.** Run every headless check CLAUDE.md names. A new or changed behavior gets one test that fails without it.
-5. **Changelog and docs**, as the rules say. A changed invariant, or a rule a future edit could break, goes into the matching section of CLAUDE.md. A bug fix that changes no rule needs none of them.
+5. **Changelog and docs**, as that skill says. A changed invariant, or a rule a future edit could break, goes into the matching section of CLAUDE.md. A bug fix that changes no rule needs none of them.
 6. **Tick the item** in `todo.md`: `[ ]` → `[x]`. A follow-up the user should decide on becomes a new `[ ]` line.
 7. **Commit everything for the item together:** code, tests, `todo.md`, the changelog and docs. Push when CLAUDE.md says to. If the push is rejected because the branch moved, rebase, run the checks again and push as a normal push.
 

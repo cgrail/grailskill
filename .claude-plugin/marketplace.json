@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "grailskill",
-      "description": "House rules for every project, and a skill that works items off todo.md.",
+      "description": "Develop like Christian Grail in every project, and a skill that works items off todo.md.",
       "source": "./"
     }
   ]

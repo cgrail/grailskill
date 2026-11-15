@@ -1,6 +1,6 @@
 ---
-name: rules
-description: House rules for every project (file size, tests, wording, who tests what, changelog, commits). Use before writing or changing code, tests, docs or UI text.
+name: develop-like-christian-grail
+description: How Christian Grail develops in every project (file size, tests, wording, who tests what, changelog, commits). Use before writing or changing code, tests, docs or UI text.
 ---
 
 The project's own CLAUDE.md wins where it says otherwise.
